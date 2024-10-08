@@ -163,39 +163,6 @@
           showModal(rsvpModal);
         });
   U && O && ((O.innerHTML = ""), O.appendChild(U));
-  var j =
-      null !== (n = document.getElementById("app")) && void 0 !== n ? n : null,
-    W =
-      null !== (o = document.getElementById("illegal")) && void 0 !== o
-        ? o
-        : null,
-    G =
-      null !== (l = document.getElementById("waterMark")) && void 0 !== l
-        ? l
-        : null,
-    P =
-      null !== (a = document.querySelector(".watermark-placeholder")) &&
-      void 0 !== a
-        ? a
-        : null,
-    z =
-      null !== (i = document.querySelector(".no-watermark")) && void 0 !== i
-        ? i
-        : null,
-    J =
-      null !== (s = document.querySelector(".watermark")) && void 0 !== s
-        ? s
-        : null;
-  setTimeout(function () {
-    G && P && null == z
-      ? ((G.style.display = "inherit"),
-        (P.innerHTML = ""),
-        P.appendChild(G),
-        (W.style.display = "none"))
-      : J && null == P
-      ? ((j.innerHTML = ""), (W.style.display = "flex"))
-      : (G && (G.style.display = "none"), (W.style.display = "none"));
-  }, 300);
   for (
     var K = document.getElementsByClassName("account-number"), Q = 0;
     Q < K.length;
